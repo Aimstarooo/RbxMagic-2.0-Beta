@@ -1,3 +1,5 @@
+game.StarterGui:SetCore("SendNotification", {Title="Script Loaded"; Text="Version Latest"; Duration=2;})
+
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
